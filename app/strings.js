@@ -1,15 +1,12 @@
 exports = typeof window === 'undefined' ? global : window;
 
 exports.stringsAnswers = {
-  reduceString: function(str, amount) {
-
+  charPositions: function(char, string) {
   },
 
-  wordWrap: function(str, cols) {
-
+  replaceDigits: function(str) {
   },
 
-  reverseString: function(str) {
-
+  extract: function(string, position) {
   }
 };
