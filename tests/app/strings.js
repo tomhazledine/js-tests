@@ -22,5 +22,5 @@ describe('strings', function() {
     expect(stringsAnswers.extract(string, 3)).to.eql('asleep');
     expect(stringsAnswers.extract(string, -2)).to.eql('the');
     expect(stringsAnswers.extract(string, 7)).to.eql('');
-  })
+  });
 });

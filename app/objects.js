@@ -1,15 +1,11 @@
 exports = typeof window === 'undefined' ? global : window;
 
 exports.objectsAnswers = {
-  alterContext: function(fn, obj) {
+  callContext: function(toCall, context) {
 
   },
 
-  alterObjects: function(constructor, greeting) {
-
-  },
-
-  iterate: function(obj) {
+  inheritObject: function(parent, name) {
 
   }
 };
