@@ -26,7 +26,6 @@ describe('objects and context', function() {
       }
     };
 
-
     var cat = objectsAnswers.inheritObject(mammal, 'Liono');
     expect(cat.getName()).to.eql('Liono');
     expect(cat.speak()).to.eql('Liono says "Roar!"');

@@ -16,7 +16,7 @@ describe('strings', function() {
     expect(stringsAnswers.replaceDigits('123456')).to.eql('');
   });
 
-  it('you should be able to return a word at a certain point', function() {
+  it('you should be able to return the nth word in a string', function() {
     var string = 'The goose is asleep in the lane';
     expect(stringsAnswers.extract(string, 1)).to.eql('goose');
     expect(stringsAnswers.extract(string, 3)).to.eql('asleep');
