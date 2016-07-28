@@ -1,6 +1,8 @@
-[![Build Status](https://travis-ci.org/rmurphey/js-assessment.svg?branch=master)](https://travis-ci.org/rmurphey/js-assessment)
-
 # A test-driven JS assessment
+
+This repo is based on a fork of Rebecca Murphey's [JS Assessment](https://github.com/rmurphey/js-assessment)
+but the tests have been stripped back and changed for internal testing of
+the JavaScript skills of interview candidates at Headforwards / NTT.
 
 This repo includes a set of tests that can be used to assess the skills of
 a candidate for a JavaScript position, or to evaluate and improve one's own
