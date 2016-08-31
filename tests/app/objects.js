@@ -16,6 +16,7 @@ describe('objects and context', function() {
     };
 
     expect(objectsAnswers.callContext(greet, person)).to.eql('Hi Ben!');
+    expect(typeof person.greet).to.eql('undefined');
   });
 
   it('You should be able to create an object which inherits from another', function() {
@@ -29,5 +30,6 @@ describe('objects and context', function() {
     var cat = objectsAnswers.inheritObject(mammal, 'Liono');
     expect(cat.getName()).to.eql('Liono');
     expect(cat.speak()).to.eql('Liono says "Roar!"');
+    expect(cat).to.not.eql(mammal);
   });
 });
