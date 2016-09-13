@@ -4,6 +4,10 @@ if ( typeof window === 'undefined' ) {
 }
 
 describe('strings', function() {
+  it('you should be able to combine strings', function() {
+    expect(stringsAnswers.exampleAnswer('one', 'two')).to.eql('one two');
+  });
+
   it('you should be able to find all positions of a character in a string', function() {
     expect(stringsAnswers.charPositions('a', 'aaaabbbb')).to.eql([0, 1, 2, 3]);
     expect(stringsAnswers.charPositions('a', 'abaabbab')).to.eql([0, 2, 3, 6]);
