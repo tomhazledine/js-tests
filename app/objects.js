@@ -18,7 +18,8 @@ exports.objectsAnswers = {
         // }
 
         // ES6
-        let newObject = {...parent};
+        let newObject = Object.create(parent);
+        // let newObject = {...parent};
         newObject.name = name;
         newObject.speak = function(){
             return `${this.name} says "Roar!"`;
