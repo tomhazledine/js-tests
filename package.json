@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "mocha -R spec 'tests/app'",
+    "test": "mocha --reporter spec --compilers js:babel-core/register tests/app",
     "lint": "eslint --quiet tests/app app",
     "lint-warn": "eslint tests/app app"
   },
@@ -32,6 +32,9 @@
   },
   "private": true,
   "devDependencies": {
-    "eslint": "^2.8.0"
+    "eslint": "^2.8.0",
+    "babel": "6.3.13",
+    "babel-core": "6.1.18",
+    "babel-preset-es2015": "6.3.13"
   }
 }
